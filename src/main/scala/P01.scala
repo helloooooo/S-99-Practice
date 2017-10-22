@@ -1,5 +1,5 @@
 
-object P01 {
+class P01 {
   def last(l:List[Int]):Int = l match {
     case x :: Nil => x
     case x :: xs => last(xs)

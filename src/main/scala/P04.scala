@@ -1,4 +1,4 @@
-object P04 {
+class P04 {
   def length[T](il:List[T]):Int = {
     def loop[T](l: List[T], count: Int): Int =
       l match {
