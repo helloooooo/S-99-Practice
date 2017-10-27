@@ -10,7 +10,7 @@ class P19 {
       }
       case m if m < 0 => sub match{
         case x ::xs => loop(m + 1,xs,x ::sub )
-        case Nil => 
+        case Nil => Nil
       }
       case 0 => append(sub, l.reverse)
     }
